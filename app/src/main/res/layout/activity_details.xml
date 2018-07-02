@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMovieListBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details_movie_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/basePadding"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/details_movie_title_text_size"
+            android:textStyle="bold"
+            tools:text="A Movie" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/details_movie_poster_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/cd_poster_image"
+                android:padding="@dimen/basePadding"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/basePadding">
+
+                <TextView
+                    android:id="@+id/details_movie_release_date_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    tools:text="2015" />
+
+                <TextView
+                    android:id="@+id/details_movie_rating_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    tools:text="8/10" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/details_movie_description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/basePadding"
+            android:textColor="@android:color/white"
+            tools:text="asdasdwqeqweqweasdasdwqeqweqweasdasdwqeqweqweasdasdwqeqweqweasdasdwqeqweq
+        weasdasdwqeqweqweasdasdwqeqweqweasdasdwqeqweqwe" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

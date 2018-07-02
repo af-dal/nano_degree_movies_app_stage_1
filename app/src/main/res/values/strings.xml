@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PopularMoviesApp</string>
+    <string name="cd_poster_image">Poster image from a Movie</string>
+    <string name="menu_sort_by_top_rated">Highest rated</string>
+    <string name="menu_sort_by_popular">Most popular</string>
+    <string name="details_vote_average">%s / 10</string>
+</resources>
